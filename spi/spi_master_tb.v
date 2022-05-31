@@ -39,7 +39,7 @@ module spi_master_tb();
     initial begin
         spi_wr_cmd = 0;
         mosi_data = 8'h00;
-        #400 
+        #390 
         spi_wr_cmd = 1;
         mosi_data = 8'b11001001;
         #200
@@ -54,7 +54,7 @@ module spi_master_tb();
     initial begin
         spi_rd_cmd = 0;
         miso_pin = 1;
-        #400 spi_rd_cmd = 1;
+        #390 spi_rd_cmd = 1;
         #200 spi_rd_cmd = 0;
         #10000
         $stop;
