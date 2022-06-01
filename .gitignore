@@ -1,4 +1,4 @@
-./spi/sim/work/*
-./spi/sim/modelsim.ini
-./spi/sim/transcript
-./spi/sim/vsim.wlf
+spi/sim/work/
+spi/sim/modelsim.ini
+spi/sim/transcript
+spi/sim/vsim.wlf
