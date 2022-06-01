@@ -10,11 +10,12 @@ module spi_master#(
     input spi_wr_cmd,
     input spi_rd_cmd,
     input [SPI_WIDTH-1:0] mosi_data,
-    input MISO,
+    
     output reg [SPI_WIDTH-1:0] miso_data,
     output reg SCK,
     output reg MOSI,
-    output reg CS
+    output reg CS,
+    input MISO
 );
 
     wire spi_wr_cmd_rise;
