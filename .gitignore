@@ -2,3 +2,8 @@ spi/sim/work/
 spi/sim/modelsim.ini
 spi/sim/transcript
 spi/sim/vsim.wlf
+
+uart/sim/work/
+uart/sim/modelsim.ini
+uart/sim/transcript
+uart/sim/vsim.wlf
